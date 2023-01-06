@@ -7,7 +7,7 @@
 [![](https://img.shields.io/github/release/BMBTeam/kokos.svg)](https://github.com/BMBTeam/kokos/releases)
 ![](http://cf.way2muchnoise.eu/versions/minecraft_kokos_all.svg)
 [![](http://cf.way2muchnoise.eu/kokos.svg)](https://minecraft.curseforge.com/projects/kokos)
-[![](https://img.shields.io/github/v/release/BMBTeam/kokos?include_prereleases&sort=semver)][releases]
+![](https://img.shields.io/github/v/release/BMBTeam/kokos?include_prereleases&sort=semver)
 
 **English** | [简体中文](docs/README_CH.md) | [Downloads](https://github.com/BMBTeam/kokos/releases) |
 [CurseForge](https://minecraft.curseforge.com/projects/kokos)
