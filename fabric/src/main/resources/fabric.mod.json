@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "kokos",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "${description}",
+  "authors": [
+    "${authors}"
+  ],
+  "icon": "icon.png",
+  "license": "${license}",
+  "contact": {
+    "homepage": "${homepage}",
+    "sources": "${sources}",
+    "issues": "${issues}"
+  },
+  "entrypoints": {
+    "main": [
+      {
+        "value": "bmb.kokos.fabric.Kokos",
+        "adapter": "kotlin"
+      }
+    ],
+    "client": [
+      {
+        "value": "bmb.kokos.fabric.client.KokosClient",
+        "adapter": "kotlin"
+      }
+    ],
+    "server": [
+      {
+        "value": "bmb.kokos.fabric.KokosServer",
+        "adapter": "kotlin"
+      }
+    ],
+    "modmenu": [
+      {
+        "value": "bmb.kokos.fabric.compat.modmenu.KokosModMenuPlugin",
+        "adapter": "kotlin"
+      }
+    ],
+    "rei_client": [
+      "bmb.kokos.compat.rei.client.KokosREIClient"
+    ],
+    "rei_common": [
+      "bmb.kokos.compat.rei.KokosREIServer"
+    ],
+    "emi": [
+      {
+        "value": "bmb.kokos.fabric.compat.emi.KokosEMIPlugin",
+        "adapter": "kotlin"
+      }
+    ]
+  },
+  "mixins": [
+    "kokos.xplat.mixins.json",
+    "kokos.fabric.mixins.json"
+  ],
+  "accessWidener": "kokos.accesswidener",
+  "depends": {
+    "minecraft": "~1.19.3",
+    "fabricloader": ">=0.14.11",
+    "fabric-language-kotlin": "^1.8.6",
+    "fabric": ">=0.69.1"
+  },
+  "conflicts": {
+  },
+  "breaks": {
+    "roughlyenoughitems": "<10.0"
+  },
+  "custom": {
+  }
+}

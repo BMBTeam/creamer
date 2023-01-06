@@ -1,0 +1,25 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[3.8,)"
+license = "${license}"
+issueTrackerURL = "${issues}"
+
+[[mods]]
+modId = "kokos"
+version = "${version}"
+displayName = "${name}"
+description = "${description}"
+authors = "${authors}"
+logoFile = "icon.png"
+displayURL = "${homepage}"
+credits = "${sources}"
+updateJSONURL = "https://github.com/BMBTeam/kokos/update.json"
+
+[[dependencies.kokos]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.3,1.20)"
+
+[[dependencies.kokos]]
+modId = "forge"
+mandatory = true
+versionRange = "[44.1.0,)"
