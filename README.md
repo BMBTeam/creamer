@@ -11,7 +11,7 @@
 **English** | [简体中文](docs/README_CH.md) | [Downloads](https://github.com/BMBTeam/kokos/releases) |
 [CurseForge](https://minecraft.curseforge.com/projects/kokos)
 
-*A xplat library for all BMB mods with an included GUI Creation API, Config Writing Library, Chaos Energy System and
+*A xplat library for all BMB mods with an included GUI Creation Library, Config Writing Library, Chaos Energy System and
 a bunch of handy tools.*
 
 <p>&nbsp;</p>
